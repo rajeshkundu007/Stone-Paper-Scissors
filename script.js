@@ -8,7 +8,7 @@ const comp_score = document.querySelector(".comp-score");
 
 const showwinner = (userwin) => {
     if (userwin) {
-        msg.innerText =`${userchice} Beats ${compchoice} And YOU WIN`;
+        msg.innerText ="YOU WIN !!";
         msg.style.backgroundColor="green";
         userscore++;
         user_score.innerText = userscore;
